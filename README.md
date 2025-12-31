@@ -5,8 +5,6 @@
 This project is a **React-based Bowling Score Calculator** that computes the total score of a single ten-pin bowling game.  
 The application calculates the score **live as the user types**, following standard bowling rules, and provides a clean, intuitive user interface.
 
-The project was built as part of a technical assessment to demonstrate **React fundamentals, problem understanding, and clean UI logic**, without unnecessary over-engineering.
-
 ---
 
 ## Problem Statement Summary
@@ -27,8 +25,6 @@ A bowling game consists of **10 frames**:
 - **Strike (`X`)**: `10 + pins from next two rolls`
 
 The final score is the **sum of all 10 frame scores**.
-
-As specified in the assignment, the application assumes the input is **well-formed**.
 
 ---
 
@@ -82,18 +78,14 @@ src/
   - Partial input is supported without crashes or invalid output
 - Once the game is complete, further input is restricted
 
-This ensures a smooth user experience while respecting bowling rules.
-
 ---
 
 ## Technologies Used
 
-- React (functional components, hooks)
+- React
 - JavaScript (ES6+)
 - Lucide React (icons)
-- CSS (custom, responsive styling)
-
-No backend or external state management is used, as the focus is on frontend logic.
+- CSS
 
 ---
 
@@ -118,28 +110,3 @@ No backend or external state management is used, as the focus is on frontend log
    ```
 
 4. Open the application in your browser.
-
----
-
-## Notes on Validation
-
-The assignment allows assuming **well-formed input**, so the implementation focuses on:
-
-- Correct scoring logic
-- Live feedback
-- Clean and maintainable React architecture
-
-Exhaustive validation of malformed bowling input was intentionally avoided to prevent over-engineering.
-
----
-
-## Conclusion
-
-This project demonstrates:
-
-- Clear understanding of bowling scoring rules
-- Practical use of React hooks and controlled inputs
-- Clean separation of UI and business logic
-- Thoughtful UX decisions
-
-The solution prioritizes **clarity, correctness, and maintainability**, aligning with real-world frontend development expectations.
