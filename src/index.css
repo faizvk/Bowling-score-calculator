@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  background: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f2937;
+}
+
+.container {
+  width: 100%;
+  max-width: 520px;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 14px;
+  transition: transform 0.2s ease;
+}
+
+.container:hover {
+  transform: translateY(-2px);
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #111827;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1.5px solid #d1d5db;
+  background: #f9fafb;
+  transition: border-color 0.2s ease;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6366f1;
+  background: #ffffff;
+}
+
+.score-card {
+  margin-top: 32px;
+  padding: 24px 28px;
+  background: #020278;
+  border-radius: 14px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.score-header h2 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.score-subtext {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.score-value {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.test-cases {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.test-cases button {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background: #f9fafb;
+  cursor: pointer;
+}
+
+.test-cases button:hover {
+  opacity: 0.6;
+}
+
+.test-cases button:active {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .score-card p {
+    font-size: 36px;
+  }
+
+  .score-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .score-value {
+    font-size: 40px;
+  }
+}
