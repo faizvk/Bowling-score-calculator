@@ -5,7 +5,7 @@
 This project is a **React-based Bowling Score Calculator** that computes the total score of a single ten-pin bowling game.  
 The application calculates the score **live as the user types**, following standard bowling rules, and provides a clean, intuitive user interface.
 
----
+## https://bowling-score-calculator.vercel.app/
 
 ## Problem Statement Summary
 
