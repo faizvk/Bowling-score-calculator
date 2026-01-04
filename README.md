@@ -110,3 +110,7 @@ src/
    ```
 
 4. Open the application in your browser.
+
+## Screenshots
+
+![Bowling Score Calculator](src/screenshots/Screenshot.png)
