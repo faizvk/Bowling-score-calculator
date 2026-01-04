@@ -4,7 +4,7 @@ import BowlingScore from "./components/BowlingScore";
 function App() {
   return (
     <>
-      <BowlingScore />;
+      <BowlingScore />
     </>
   );
 }
