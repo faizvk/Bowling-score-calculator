@@ -52,6 +52,12 @@ These examples are also available as **clickable buttons** in the UI.
 
 ---
 
+## Tests
+
+Unit tests are written for the bowling score calculation logic using example cases from the problem statement.
+
+---
+
 ## Project Structure
 
 ```
@@ -60,6 +66,7 @@ src/
 │   └── BowlingScore.jsx
 ├── utils/
 │   └── calculateScore.js
+│   └── calculateScore.test.js
 ├── App.jsx
 ├── main.jsx
 └── index.css
@@ -67,6 +74,7 @@ src/
 
 - UI logic is handled in `BowlingScore.jsx`
 - Scoring logic is isolated in `calculateScore.js` for clarity and testability
+- Test cases are provided inside `calculateScore.test.js`
 
 ---
 
